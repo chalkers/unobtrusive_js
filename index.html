@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unobtrusive JavaScript</title>
+</head>
+<body>
+  
+  <h2>Downright Hackish</h2>
+  <a href="javascript:window.open('http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript')">W3C Article</a> 
+
+  <h2>Less Obtrusive Way</h2>
+  <a href="http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript" onclick="window.open('http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript');return false;">W3C Article</a>
+
+  <h2>Unobtrusive Way</h2>
+
+	<a href="http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript" class="new_window">W3C Article</a>
+
+	<a href="https://en.wikipedia.org/wiki/Unobtrusive_JavaScript" class="new_window">Wikipedia Article</a>
+	<script src="app.js"></script>
+</body>
+</html>
